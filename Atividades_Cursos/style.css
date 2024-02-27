@@ -1,0 +1,55 @@
+body{
+    font-family: "open-sans", "sans-serif";
+    text-align: center;
+    margin: 0;
+}
+
+#curriculo_um{
+    margin: 0;
+}
+
+h2{
+    font-family: "inter", "Open-sans";
+    font-size: 30px;
+    line-height: 27px;
+    font-weight: normal;
+}
+
+h4{
+    font-family: "inter", "Open-sans";
+    font-size: 24px;
+    line-height: 1px;
+    font-weight: normal;
+}
+
+p{
+    font-family: "inter", "Open-sans";
+    line-height: 24px;
+}
+
+#curriculo_dois h6{
+    margin: 0;
+    font-family: "inter", "Open-sans";
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: normal;
+    color: rgb(17, 17, 126);
+}
+
+curriculo_dois a{
+    margin: 0;
+    font-size: 40px;
+    line-height: 25px;
+}
+
+curriculo_dois p{
+    line-height: 7px;
+}
+
+curriculo_dois li{
+    font-family: "inter", "Open-sans";
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+}
