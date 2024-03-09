@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+    <title>Form</title>
+</head>
+<body>
+<!--
+
+Incluir um campo do tipo password para o usuário inserir apenas senhas; C
+
+
+Incluir um campo de e-mail para o usuário inserir um endereço de e-mail válido; C
+
+
+Incluir uma lista com 5 checkboxes para o usuário selecionar mais de uma opção; C
+
+
+Incluir um radiobutton com 2 opções, onde apenas uma pode ser selecionada por vez; C
+
+
+Incluir um botão de envio (submit) para enviar as informações do formulário; C
+
+
+Incluir um botão para limpar (reset) o formulário e começar novamente. C
+
+
+Certifique-se de que o seu formulário esteja funcional e siga as boas práticas de HTML para a criação dos elementos. C
+
+
+Incluir um campo de texto para o usuário inserir informações; C
+
+-->
+
+
+    <h2>Formulário</h2>
+    <form>
+        <h4>Email:</h4>
+        <div id="email">
+            <input type="text">
+        </div>
+
+        <h4>Password:</h4>
+        <div id="pass">
+            <input type="password">
+        </div>
+        
+
+        <h4>Preferências:</h4>
+        
+        <div class="tecs"> 
+            <input type="checkbox" name="back-end" id="back-end">
+            <label for="back-end">Back-end</label>
+
+            <input type="checkbox" name="front-end" id="front-end">
+            <label for="front-end">Front-end</label>
+
+            <input type="checkbox" name="mobile" id="mobile">
+            <label for="mobile">Mobile</label>
+
+            <br>
+
+            <input type="checkbox" name="games" id="games">
+            <label for="games">Desenvolvedor de jogos</label>
+
+            <input type="checkbox" name="eng" id="eng">
+            <label for="eng">Engenharia de software</label>
+        </div>
+
+    <h4>País:</h4>
+    
+        <div class="país">
+            <input type="radio" id="Bra" name="Bra">
+            <label for="Bra">Brasil</label>
+        
+            <br>
+        
+            <input type="radio" name="Est" id="Est">
+            <label for="Est">Estrangeiro</label>
+        </div>
+
+        <br>
+        <hr>
+        
+        <h4>Observações:</h4>
+        <textarea name="obs" id="obs" cols="21" rows="4"></textarea>
+        
+
+        
+
+        
+        <div id="submit">    
+            <input type="submit" value="Enviar">
+        </div>
+
+        <div id="reset">
+            <input type="reset" value="reiniciar">
+        </div>
+
+    </form>
+</body>
+</html>

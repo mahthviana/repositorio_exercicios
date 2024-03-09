@@ -1,0 +1,38 @@
+body{
+    font-family: "Open-sans", sans-serif;
+    font-family: "Inter", sans-serif;
+}
+
+#email{
+    margin-top: -20px;
+}
+
+#pass{
+    margin-top: -20px;
+}
+
+.tecs{
+    margin-top: -20px;
+}
+
+.país{
+    margin-top: -20px;
+}
+
+textarea{
+    margin-left: -116px;
+    margin-top: -20px;
+}
+
+#submit, #reset{
+    float: left;
+}
+
+#submit{
+    margin-top: 70px;
+    margin-right: 6px;
+}
+
+#reset{
+    margin-top: 70px;
+}
